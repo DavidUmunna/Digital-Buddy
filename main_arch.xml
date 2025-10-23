@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="AI Mental Health Chatbot MVP" id="diagram-1">
+    <mxGraphModel dx="1020" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <!-- User App Layer -->
+        <mxCell id="2" value="Mobile/Web App (React Native, Flutter)" style="rounded=1;whiteSpace=wrap;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Backend/API Layer -->
+        <mxCell id="3" value="API Backend (Node.js, Python/Flask)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="50" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <!-- AI/NLP Layer -->
+        <mxCell id="4" value="AI/NLP Service (Dialogflow, Rasa, OpenAI)" style="rounded=1;whiteSpace=wrap;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Database Layer -->
+        <mxCell id="5" value="Database (PostgreSQL, MongoDB, Redis)" style="rounded=1;whiteSpace=wrap;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="300" y="230" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Anonymous Chat Layer -->
+        <mxCell id="6" value="Anonymous Community Chat (Firebase, WebSockets)" style="rounded=1;whiteSpace=wrap;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Analytics Layer -->
+        <mxCell id="7" value="Analytics (Mixpanel, Google Analytics)" style="rounded=1;whiteSpace=wrap;fillColor=#f5f5f5;" vertex="1" parent="1">
+          <mxGeometry x="50" y="140" width="220" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Mental Health Resources API -->
+        <mxCell id="8" value="External Mental Health Resource APIs" style="rounded=1;whiteSpace=wrap;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Authentication/Cloud -->
+        <mxCell id="9" value="Authentication Service (OAuth2, JWT)\nCloud Hosting (AWS, Azure, GCP)" style="rounded=1;whiteSpace=wrap;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="10" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="11" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="12" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="13" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="14" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=elbowEdgeStyle;endArrow=block;html=1;strokeColor=#000000;" edge="1" parent="1" source="3" target="9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
